@@ -1,0 +1,22 @@
+================================================================================
+Components
+
+- Microcontroller: ATmega328P - This is the main processing unit of the board.
+- USB to Serial Converter: ATmega16U2 - Converts the USB signals to serial for communication with the ATmega328P.
+- Power Supply Components:
+    Voltage Regulator: 5V and 3.3V voltage regulators to ensure stable power supply to the board and peripherals.
+    Power Jack: For external power supply (7-12V DC).
+- Oscillator: 16 MHz crystal oscillator for clock generation.
+- USB Connector: For connecting the board to a computer for programming and power.
+- ICSP Headers: For programming the microcontrollers using an in-circuit serial programmer.
+- Digital I/O Pins: 14 digital input/output pins (6 can be used as PWM outputs).
+- Analog Input Pins: 6 analog inputs.
+- Reset Button: For resetting the microcontroller.
+- LED Indicators:
+- Power LED: Indicates that the board is powered on.
+    TX and RX LEDs: Indicate data transmission and reception.
+    Built-in LED: Connected to digital pin 13, often used for basic testing.
+    Headers: For connecting external components and shields.
+- Resettable Polyfuse: Protects the USB port of your computer from shorts and overcurrent.
+- DC Power Jack: For an alternative power supply input.
+- Barrel Jack: For external power supply.
