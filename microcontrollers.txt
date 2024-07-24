@@ -4,3 +4,8 @@ Glossary
 ICSP: check In-Circuit Serial Programming.
 In-Circuit Serial Programming: [ICSP] set of pins used to program and communicate with microcontrollers while they are installed in a circuit, without needing to remove them.
   - they allow for the programming and reprogramming of the microcontroller's firmware directly on the PCB.
+Maximum Clock Speed: the frequency at which the microcontroller operates.
+MCU superset: more advanced or feature-rich version of a microcontroller unit (MCU).
+  - Higher Clock Speeds, Increased Memory, enhanced peripherals, improved communication interfaces, etc.
+Microcontroller Unit: [MCU] compact integrated circuit designed to govern a specific operation in an embedded system.
+  - A typical MCU includes: CPU, Memory, Peripherals (such as timers, counters, I/O), Communication Interfaces (UART, SPI, I2C, CAN) and Analog Components (ADCs and DACs).

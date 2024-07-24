@@ -1,0 +1,18 @@
+================================================================================
+Components
+
+- Microcontroller: Renesas RA4M1 Microcontroller. Arm Cortex-M4 core with a Floating Point Unit (FPU)
+    - R7FA4M1AB3CFM#AA0
+- Wi-Fi Module: Espressif ESP32-S3
+- USB Connector: USB Type-C connector for power and data transfer
+- Voltage Regulator: Ensures stable voltage levels for the board
+- DC Power Jack: Allows the board to be powered from an external power source
+- Reset Button: Allows the user to reset the microcontroller
+- LED Indicators: Various LEDs indicating power, TX/RX communication, and other status indicators
+- ICSP Header: For programming the microcontroller directly
+- GPIO Pins: General Purpose Input/Output pins for interfacing with other components
+- Analog Inputs: For reading analog signals
+- PWM Outputs: Pulse Width Modulation outputs for controlling devices like servos
+- SPI, I2C, and UART Interfaces: For communication with other devices and modules
+- Crystal Oscillator: Provides the clock signal to the microcontroller
+- Capacitors and Resistors: Various passive components for filtering, biasing, and stabilization
