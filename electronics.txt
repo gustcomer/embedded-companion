@@ -1,0 +1,4 @@
+================================================================================
+Glossary
+
+Jack: a socket designed to receive a jack plug.
