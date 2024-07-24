@@ -1,3 +1,10 @@
+Features
+
+- 14 digital input/output pins.
+  - 6 of them can be used as PWM outputs.
+  - 6 analog inputs
+
+
 ================================================================================
 Components
 
@@ -20,3 +27,10 @@ Components
 - Resettable Polyfuse: Protects the USB port of your computer from shorts and overcurrent.
 - DC Power Jack: For an alternative power supply input.
 - Barrel Jack: For external power supply.
+
+================================================================================
+
+ICSP: consists of 6 pins, MISO, SCK, MOSI, VCC, GND, RESET.
+  MISO (Master In Slave Out): used for data transmission from the microcontroller to the programmer.
+  MOSI (Master Out Slave In): used for data transmission from the programmer to the microcontroller.
+  SCK (Serial Clock): provides the clock signal for synchronization between the programmer and the microcontroller.

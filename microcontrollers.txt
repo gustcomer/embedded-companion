@@ -1,0 +1,6 @@
+================================================================================
+Glossary
+
+ICSP: check In-Circuit Serial Programming.
+In-Circuit Serial Programming: [ICSP] set of pins used to program and communicate with microcontrollers while they are installed in a circuit, without needing to remove them.
+  - they allow for the programming and reprogramming of the microcontroller's firmware directly on the PCB.
