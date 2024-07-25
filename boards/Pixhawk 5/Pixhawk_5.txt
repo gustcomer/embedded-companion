@@ -1,0 +1,28 @@
+Microcontroller Unit (MCU):
+  STM32F7 Series: A powerful ARM Cortex-M7 MCU that handles most of the flight control computations.
+  for the v5X: STM32F765
+Sensors:
+  Accelerometer and Gyroscope: Typically an InvenSense MPU6000 or ICM-20689, used for measuring the vehicle's acceleration and angular velocity.
+  Magnetometer: Usually a Honeywell HMC5883L or a Bosch BMM150, used for measuring the magnetic field to determine the heading.
+  Barometer: Often a Bosch BMP280 or MS5611, used for measuring atmospheric pressure to determine altitude.
+  Compass: Integrated within the magnetometer or as a separate component.
+Memory:
+  Flash Memory: Used for storing firmware and flight logs.
+  RAM: Dynamic memory used by the MCU for flight operations.
+Power Management:
+  Power Distribution Board (PDB): Manages power distribution to various components.
+  Battery Management System (BMS): Ensures safe charging and discharging of the battery.
+Communication Interfaces:
+  UART Ports: For communication with GPS, telemetry radios, and other peripherals.
+  I2C Ports: For sensors and other I2C devices.
+  CAN Bus: For robust communication with CAN-enabled devices.
+  SPI Ports: For high-speed communication with certain sensors.
+GPS Module:
+  Integrated or external GPS module for providing location data.
+Other Peripherals:
+  SD Card Slot: For additional data logging.
+  LED Indicators: For visual status indication.
+  USB Port: For connecting to a ground control station for firmware updates and configuration.
+RC Input/Output:
+  PWM Outputs: For controlling motors and servos.
+  RC Input: For receiving commands from the remote controller.

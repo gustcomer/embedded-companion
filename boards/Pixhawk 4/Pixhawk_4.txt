@@ -1,0 +1,22 @@
+Microcontroller: STM32F765 with ARM Cortex-M7, 32-bit processor running at 216 MHz.
+IO Processor: STM32F100 32 Bit Arm Cortex-M3, 24MHz, 8kb SRAM
+Sensors:
+  Accelerometers/Gyroscopes: Two sets for redundancy (ICM-20689, BMI055).
+  Magnetometer: IST8310.
+  Barometer: MS5611.
+GPS: It typically uses an external GPS module for accurate positioning.
+Compass: Integrated in the GPS module (if available).
+Power Management:
+  Power distribution board with integrated voltage and current sensors.
+  Redundant power supply inputs (Power1 and Power2) to ensure stable operation.
+Interfaces:
+  Multiple UART ports for telemetry, GPS, and other peripherals.
+  I2C, SPI, CAN bus, and PWM outputs.
+  ADC inputs for analog sensors.
+  USB port for firmware updates and configuration.
+Memory:
+  512 KB SRAM.
+  2 MB Flash.
+SD Card: Slot for logging data and firmware updates.
+LEDs: Status indicators for power, GPS, and system status.
+Buzzer: For audible alerts and notifications.

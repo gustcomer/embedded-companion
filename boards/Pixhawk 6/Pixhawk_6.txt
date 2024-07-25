@@ -1,0 +1,36 @@
+Microcontroller Unit (MCU):
+  STM32H7 Series: An ARM Cortex-M7 MCU that provides high processing power for advanced flight control algorithms and real-time tasks.
+  for the top 6X version: STM32H753
+  for entry 6C version: STM32H743
+Sensors:
+  Accelerometer and Gyroscope: Typically an ICM-20602 or BMI088, used for precise measurement of acceleration and angular velocity.
+  Magnetometer: Such as the IST8310, used for detecting the magnetic field for heading information.
+  Barometer: Usually a Bosch BMP388, providing accurate atmospheric pressure readings for altitude determination.
+  Compass: Often integrated with the magnetometer or as a standalone component.
+Memory:
+  Flash Memory: Onboard storage for firmware and flight data logging.
+  RAM: Sufficient dynamic memory to support complex flight operations.
+Power Management:
+  Power Distribution Board (PDB): Distributes power to the various components of the flight controller.
+  Battery Management System (BMS): Ensures safe operation and monitoring of the battery.
+Communication Interfaces:
+  UART Ports: For peripherals such as GPS modules, telemetry radios, and other devices.
+  I2C Ports: Connecting additional sensors and devices.
+  CAN Bus: For robust, high-speed communication with CAN-enabled peripherals.
+  SPI Ports: For high-speed communication with onboard sensors.
+GPS Module:
+  Compatibility with various GPS modules for precise location tracking and navigation.
+Other Peripherals:
+  SD Card Slot: For expanded data logging capabilities.
+  LED Indicators: Providing visual feedback on the status of the flight controller.
+  USB Port: For connecting to a ground control station for updates, configuration, and data transfer.
+RC Input/Output:
+  PWM Outputs: For motor and servo control.
+  RC Input: For receiving control signals from the remote controller.
+Redundancy and Safety Features:
+  Dual IMUs: For redundancy in critical sensor data.
+  Redundant Power Inputs: To ensure continuous operation even if one power source fails.
+  Failsafe Mechanisms: Built-in features to handle communication loss or sensor failures.
+Additional Components:
+  Ethernet Interface: Some versions may include an Ethernet interface for high-speed data transfer and networked operations.
+  Debug Ports: For development and troubleshooting purposes.
