@@ -1,4 +1,16 @@
 ================================================================================
+Some Models and it's Applications
+
+ATmega328P: Arduino Uno R3
+R7FA4M1AB3CFM: Arduino Uno R4 WiFi
+STM32F765: Pixhawk 4
+STM32F100: IO Controller of Pixhawk 4
+STM32F765: Pixhawk 5
+STM32H743: Pixhawk 6C - entry version
+STM32H753: Pixhawk 6X - professional version
+
+
+================================================================================
 Glossary
 
 ICSP: check In-Circuit Serial Programming.
