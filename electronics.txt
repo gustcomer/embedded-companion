@@ -2,3 +2,11 @@
 Glossary
 
 Jack: a socket designed to receive a jack plug.
+Levels of Abstraction: represent the level structure of a typical computer system
+  - Level 1: Logic Gate Level -- combinational and sequential circuits.
+  - Level 2: Microcode Level
+  - Level 3: Instruction Set Architecture Level
+  - Level 4: Operating System Level
+  - Level 5: Assembly Level
+  - Level 6: High-order language level -- languages like C.
+  - Level 7: Application Level
