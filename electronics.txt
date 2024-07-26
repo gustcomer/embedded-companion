@@ -10,3 +10,5 @@ Levels of Abstraction: represent the level structure of a typical computer syste
   - Level 5: Assembly Level
   - Level 6: High-order language level -- languages like C.
   - Level 7: Application Level
+Multiplexer: device that selects one of several data inputs to be routed to a single data output.
+  - an eight-input multiplexer would have data input lines with inputs from D0 to D7, select control lines with signals S0 to S2 and a single data output line F.
