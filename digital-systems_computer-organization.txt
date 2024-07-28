@@ -1,5 +1,7 @@
 ================================================================================
 Glossary
 
+Demultiplexer: routes a single input value to one of several output lines.
+  - a four-output demultiplexer would have an input signal D, two selector signals S0 and S1, and four output signals D0 to D3.
 Multiplexer: device that selects one of several data inputs to be routed to a single data output.
   - an eight-input multiplexer would have data input lines with inputs from D0 to D7, select control lines with signals S0 to S2 and a single data output line F.
