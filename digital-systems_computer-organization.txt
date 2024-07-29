@@ -1,10 +1,14 @@
 ================================================================================
 Glossary
 
+Adder: adds three binary digits being two significant bits A and B and one Carry In bit Cin. Produces a sum bit S and a Carry-Out bit Cout.
 Binary Decoder: takes a binary number as input and sets one of several data output lines to 1 and the rest to 0.
   - a 2x4 binary decoder would take S0 and S1 as input and would activate one of the output signals D0 to D3.
   - it can be seen as a demultiplexer with input signal D=1.
 Demultiplexer: routes a single input value to one of several output lines.
   - a four-output demultiplexer would have an input signal D, two selector signals S0 and S1, and four output signals D0 to D3.
+Half Adder: just like a full adder, but does not take the Carry-In bit Cin ibto account. It produces the same sum bit S abd the Carry-out bit Cout.
+  - it is perfect to be used as the first Adder in a chain of Adders to add multiple bits.
+  - you can use a Half Adder to sum the LSB (least significat bit) or you can use a Full Adder with Cin set to zero.
 Multiplexer: device that selects one of several data inputs to be routed to a single data output.
   - an eight-input multiplexer would have data input lines with inputs from D0 to D7, select control lines with signals S0 to S2 and a single data output line F.
