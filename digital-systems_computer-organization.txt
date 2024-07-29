@@ -2,6 +2,9 @@
 Glossary
 
 Adder: adds three binary digits being two significant bits A and B and one Carry In bit Cin. Produces a sum bit S and a Carry-Out bit Cout.
+Adder/Subtracter: CI that allows for addition A+B and subtraction A-B as well.
+  - the subtraction part is built using an Adder and the binary relatio  NEG x = 1 + NOT x.
+  - for a four-bit ripple-carry Adder/Subtracter, it would have an input signal Sub to indicate wether this is an addition or subtraction operation, inputs A0 to A3 and B0 to B3,, result bits S0 to S3, a Carry Out bit Cout and an overflow bit V.
 Binary Decoder: takes a binary number as input and sets one of several data output lines to 1 and the rest to 0.
   - a 2x4 binary decoder would take S0 and S1 as input and would activate one of the output signals D0 to D3.
   - it can be seen as a demultiplexer with input signal D=1.
@@ -12,3 +15,6 @@ Half Adder: just like a full adder, but does not take the Carry-In bit Cin ibto 
   - you can use a Half Adder to sum the LSB (least significat bit) or you can use a Full Adder with Cin set to zero.
 Multiplexer: device that selects one of several data inputs to be routed to a single data output.
   - an eight-input multiplexer would have data input lines with inputs from D0 to D7, select control lines with signals S0 to S2 and a single data output line F.
+Ripple-Carry Adder: a digital adder constructed by cascading multipple adders in series to add binary numbers of arbitrary length.
+  - the LSB (least significant bit) adder can be implemented using a Half-Adder or a Full-Adder with Cin set to zero.
+  - for an n-bit ripple-carry adder the total delay is approximately n times the delay of a single full adder.
