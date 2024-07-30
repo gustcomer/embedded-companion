@@ -18,3 +18,6 @@ Multiplexer: device that selects one of several data inputs to be routed to a si
 Ripple-Carry Adder: a digital adder constructed by cascading multipple adders in series to add binary numbers of arbitrary length.
   - the LSB (least significant bit) adder can be implemented using a Half-Adder or a Full-Adder with Cin set to zero.
   - for an n-bit ripple-carry adder the total delay is approximately n times the delay of a single full adder.
+XOR: exclusive OR. Its output is 1 when the number of inputs is odd. For two inputs, it is true if the two inputs are different.
+  - its symbol is equal to an OR, but with an extra curves line on the input side.
+  - a XOR can be seen as an inverter.
