@@ -15,6 +15,11 @@ Half Adder: just like a full adder, but does not take the Carry-In bit Cin ibto 
   - you can use a Half Adder to sum the LSB (least significat bit) or you can use a Full Adder with Cin set to zero.
 Multiplexer: device that selects one of several data inputs to be routed to a single data output.
   - an eight-input multiplexer would have data input lines with inputs from D0 to D7, select control lines with signals S0 to S2 and a single data output line F.
+NZVC bits: used to indicate the outcome of arithmetic and logic operations and crucial for branching or conditional execution of instructions.
+  N - Negative Flag: set if the result of an operation is negative. Represents the sign bit.
+  Z - Zero Flag: set if the result of an operation is zero.
+  V - Overflow Flag: set if there is a signed overflow in an arithmetic operation.
+  C - Carry Flag: set if there is an unsigned overflow in an arithmetic operation.
 Ripple-Carry Adder: a digital adder constructed by cascading multipple adders in series to add binary numbers of arbitrary length.
   - the LSB (least significant bit) adder can be implemented using a Half-Adder or a Full-Adder with Cin set to zero.
   - for an n-bit ripple-carry adder the total delay is approximately n times the delay of a single full adder.
