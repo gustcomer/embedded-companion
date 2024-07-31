@@ -5,6 +5,8 @@ Adder: adds three binary digits being two significant bits A and B and one Carry
 Adder/Subtracter: CI that allows for addition A+B and subtraction A-B as well.
   - the subtraction part is built using an Adder and the binary relatio  NEG x = 1 + NOT x.
   - for a four-bit ripple-carry Adder/Subtracter, it would have an input signal Sub to indicate wether this is an addition or subtraction operation, inputs A0 to A3 and B0 to B3,, result bits S0 to S3, a Carry Out bit Cout and an overflow bit V.
+Arithmetic Logic Unit (ALU): responsible for performing arithmetic and logical operations on binary data inputs. it is a critical component of a CPU.
+  - the ALU for PEP/9 would have 8 lines (bits) for A input, 8 bits for B input, 4 bits for the control line, 1 bit for the Cin, 8 lines for the Result, and 4 bits.for the NZVC bits.
 Binary Decoder: takes a binary number as input and sets one of several data output lines to 1 and the rest to 0.
   - a 2x4 binary decoder would take S0 and S1 as input and would activate one of the output signals D0 to D3.
   - it can be seen as a demultiplexer with input signal D=1.
