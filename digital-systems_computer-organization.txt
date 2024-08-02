@@ -25,6 +25,11 @@ NZVC bits: used to indicate the outcome of arithmetic and logic operations and c
 Ripple-Carry Adder: a digital adder constructed by cascading multipple adders in series to add binary numbers of arbitrary length.
   - the LSB (least significant bit) adder can be implemented using a Half-Adder or a Full-Adder with Cin set to zero.
   - for an n-bit ripple-carry adder the total delay is approximately n times the delay of a single full adder.
+SR Latch: aka Set-Reset Latch. Building block in digital electronics used for storing a single bit of information.
+  - it is a bistable multivibrator composed of two inputs S and R, and two outputs Q and Q'. They are connected with two cross-coupled NAND gates.
+  - when S (Set) is pressed, it sets Q to one and holds the state. When R (Reset) is pressed, it sets Q to zero.
+  - in mundane context, a Latch is a mechanical device used to keep a door, gate or window securely closed.
+  - R=1 and S=1 is an invalid state and anything can happen in this situation.
 XOR: exclusive OR. Its output is 1 when the number of inputs is odd. For two inputs, it is true if the two inputs are different.
   - its symbol is equal to an OR, but with an extra curves line on the input side.
   - a XOR can be seen as an inverter.
