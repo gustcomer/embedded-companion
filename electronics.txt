@@ -10,3 +10,6 @@ Levels of Abstraction: represent the level structure of a typical computer syste
   - Level 5: Assembly Level
   - Level 6: High-order language level -- languages like C.
   - Level 7: Application Level
+Transistor: devices that can amplify or switch electronic signals and electrical power.
+  - Bipolar Junction Transistor (BJT) consists of three layers of semiconductor material (NPN or PNP).
+  - Field-Effect Transistor (FET) can be of types Junction FET (JFET) and Metal-Oxide-Semiconductor FET (MOSFET).
