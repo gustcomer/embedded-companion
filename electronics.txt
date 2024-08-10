@@ -1,6 +1,7 @@
 ================================================================================
 Glossary
 
+Electric Circuit: usually the current is represented as flowing from the positive pole to the negative. But what really happens is that electrons flow from the negative pole and are attracted by the positive pole.
 Jack: a socket designed to receive a jack plug.
 Levels of Abstraction: represent the level structure of a typical computer system
   - Level 1: Logic Gate Level -- combinational and sequential circuits.
