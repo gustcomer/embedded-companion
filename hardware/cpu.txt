@@ -1,0 +1,21 @@
+================================================================================
+
+ARM (Advanced RISC Machine): family of Reduced Instruction Set Computing (RISC) architectures designed for energy-efficient performance.
+CISC (Complex Instruction Set Computing): aimed at minimizing the number of instructions per program by using a complex and rich instruction set.
+  eg: x86, VAX, System/360, Zilog Z80.
+Instruction Set: collection of machine-level commands that a CPU can execute.
+  Opcode (Operation Code): the operation to be performed.
+    Arithmetic and Logic: ADD, SUB, MUL, DIV, AND, OR, XOR.
+    Data Transfer Operations: MOV, LOAD, STORE, PUSH, POP.
+    Control Flow Operations: JMP (jump), CALL (function call), RET (return).
+    System and Special Instructions: NOP (no operation), HLT (halt).
+  Operands: can be given by Registers, Memory Addresses, Immediate Values, I/O Devices.
+  Instruction Format:
+  Addressing Modes: define how the operands (data or memory locations) of an instruction are accessed. They determine the source of the data.
+    Immediate Addressing: the operand is directly specified as a constant within the instruction.
+    Register Addressing: operand is stored in a CPU register.
+    Direct (Absolute) Addressing: operand is located at a specific memory address.
+    Indirect Addressing: memory address of the operand is stored in a register or another memory location.
+    Indexed Addressing, Base + Offset Addressing, Stack Addressing, Relative Addressing, Implied Addressing.
+RISC (Reduced Instruction Set Computing): emphasizes a simplified set of instructions, enabling faster execution and more efficient performance.
+  eg: ARM, RISC-V, MIPS, SPARC, PowerPC.
