@@ -1,7 +1,8 @@
 ================================================================================
 Glossary
 
-Electric Circuit: usually the current is represented as flowing from the positive pole to the negative. But what really happens is that electrons flow from the negative pole and are attracted by the positive pole.
+Electric Current: usually the current is represented as flowing from the positive pole to the negative. But what really happens is that electrons flow from the negative pole and are attracted by the positive pole.
+  - it's like the negative pole is full of electrons. And the positive pole is full positive charges.
 Jack: a socket designed to receive a jack plug.
 Levels of Abstraction: represent the level structure of a typical computer system
   - Level 1: Logic Gate Level -- combinational and sequential circuits.
@@ -11,6 +12,14 @@ Levels of Abstraction: represent the level structure of a typical computer syste
   - Level 5: Assembly Level
   - Level 6: High-order language level -- languages like C.
   - Level 7: Application Level
+MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors)
+  - usually have three terminals: gate that let current flow between Drain and Source.
+  n-channel MOSFETs (NMOS transistors)
+n-type substrate: semiconductor base material that possesses a surplus of electrons.
+  to create this substrate, include elements from Group V of the periodic table, such as phosphorus, arsenic, or antimony into the pure silicon crystal.
+p-type substrate: semiconductor base material that possesses an excess of positively charged "holes."
+  to create this substrate, introduce acceptor impurities (boron, gallium, indium Group III) into the pure silicon crystal.
+  these dopants have three valence electrons and form bonds with silicon (which has four valence electrons). The missing electron in the bond leaves a hole.
 Transistor: devices that can amplify or switch electronic signals and electrical power.
   - Bipolar Junction Transistor (BJT) consists of three layers of semiconductor material (NPN or PNP).
   - Field-Effect Transistor (FET) can be of types Junction FET (JFET) and Metal-Oxide-Semiconductor FET (MOSFET).

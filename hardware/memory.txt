@@ -1,0 +1,14 @@
+================================================================================
+
+DIMM (Dual Inline Memory Module): type of computer memory module that contains dynamic random-access memory (DRAM) chips.
+DRAM (Dynamic RAM): usually consists of one NMOS transistor (MOSFET) paired with a capacitor.
+Memory Types
+  RAM (volatile, temporary storage).
+  ROM (non-volatile, permanent storage).
+  Cache memory (fast, temporary storage close to the CPU).
+  Storage devices (like SSDs or HDDs).
+RAM Types
+  Dynamic RAM (DRAM): used for main system memory. Uses a transistor and a capacitor (dynamic) per memory cell. Relies on periodic refresh cycles (requires a refresh circuit).
+  Static RAM (SRAM): used for CPU cache. Uses 4-6 transistors per memory cell (no capacitors). Work as flip-flops made of transistors as long as the power is on.
+    - used in CPU caches (L1, L2, L3) and where speed is critical (e.g., buffers in networking hardware).
+SIMM (Single Inline Memory Modules)
