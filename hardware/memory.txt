@@ -1,5 +1,7 @@
 ================================================================================
 
+bit lines: vertical conductor that connects to the drain or source terminals of the transistors in a column of memory cells.
+  - responsible for reading and writing data.
 DIMM (Dual Inline Memory Module): type of computer memory module that contains dynamic random-access memory (DRAM) chips.
 DRAM (Dynamic RAM): usually consists of one NMOS transistor (MOSFET) paired with a capacitor.
 Memory Types
@@ -11,4 +13,8 @@ RAM Types
   Dynamic RAM (DRAM): used for main system memory. Uses a transistor and a capacitor (dynamic) per memory cell. Relies on periodic refresh cycles (requires a refresh circuit).
   Static RAM (SRAM): used for CPU cache. Uses 4-6 transistors per memory cell (no capacitors). Work as flip-flops made of transistors as long as the power is on.
     - used in CPU caches (L1, L2, L3) and where speed is critical (e.g., buffers in networking hardware).
+Sense Amplifiers: specialized circuits connected to the bit lines used to read values in DRAM.
+  they charge the bit lines to a small voltage like Vcc/2 and depending if the capacitor is charged or not, their voltage will increase or decrease small amounts.
 SIMM (Single Inline Memory Modules)
+word line: horizontal control line that runs along a row of memory cells and connects to the gate terminals of the transistors in that row.
+  together with the bit lines that run vertically, it reads or writes the bits of any word.

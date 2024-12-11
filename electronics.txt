@@ -14,7 +14,9 @@ Levels of Abstraction: represent the level structure of a typical computer syste
   - Level 7: Application Level
 MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors)
   - usually have three terminals: gate that let current flow between Drain and Source.
-  n-channel MOSFETs (NMOS transistors)
+  NMOS (n-channel MOSFETs): consist of a P-type substrate with N-type regions for the drain and source. An N-type channel is used for current conduction.
+    - apply a positive voltage to the gate (relative to the source) to attract electrons (open the gate) to form a conductive channel between the drain and source terminals.
+    - the gate of a MOSFET transistor iinsulation is achieved using a thin layer of silicon dioxide (SiO₂).
 n-type substrate: semiconductor base material that possesses a surplus of electrons.
   to create this substrate, include elements from Group V of the periodic table, such as phosphorus, arsenic, or antimony into the pure silicon crystal.
 p-type substrate: semiconductor base material that possesses an excess of positively charged "holes."
